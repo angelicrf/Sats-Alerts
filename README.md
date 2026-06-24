@@ -22,6 +22,12 @@ This allows for:
   - Attitude control alerts (`satfc1 uncontrollable_alarm`, `satfc1 momentum_saturated_alarm`)
   - Propulsion and power degradation alerts
 
+- **`Collision_avoidance.py`**
+  Collision Avoidance Strategies Simulator
+  This script simulates different methods a satellite can use to avoid collisions
+  with other objects (satellites or debris) in Low Earth Orbit.
+  Each avoidance alternative is implemented as a separate, detailed function.
+
 ## Supported Alerts
 
 The simulator currently models the following alerts and the conditions that trigger them:
